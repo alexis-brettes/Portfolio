@@ -1,7 +1,7 @@
 # Portfolio — Alexis Brettes
 
 Single-page portfolio built with SvelteKit (Svelte 5), Tailwind CSS v4 and TypeScript,
-deployed to GitLab Pages.
+deployed to GitHub Pages.
 
 ## Getting started
 
@@ -35,6 +35,10 @@ npm run build   # static output in build/
 npm run preview # serve the build locally
 ```
 
-`.gitlab-ci.yml` deploys the `build/` directory to GitLab Pages on every push to the
-default branch. The base path is derived automatically from `CI_PAGES_URL`, so the site
-works both at `https://<user>.gitlab.io/<project>/` and locally.
+`.github/workflows/deploy.yml` builds and deploys the site to GitHub Pages on every
+push to `main` (live at `https://alexis-brettes.github.io/Portfolio/`). The base path is
+derived automatically from `CI_PAGES_URL`, so the site also works locally and under any
+other sub-path.
+
+> One-time setup: in the repository, **Settings → Pages → Build and deployment →
+> Source** must be set to **GitHub Actions**.
