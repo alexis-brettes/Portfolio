@@ -13,16 +13,16 @@ export const education: EducationEntry[] = [
 		period: 'Sept. 2022 — Jun. 2025',
 		degree:
 			'University Bachelor of Technology (BUT) in Networks & Telecommunications, specialization in Cybersecurity',
-		school: 'Blagnac Institute of Technology, Toulouse',
+		school: 'Blagnac Institute of Technology, Blagnac',
 		description:
-			'Three-year degree focused on network administration, infrastructure and cybersecurity.'
+			'Curriculum covered signal processing, information networks and development, as well as cybersecurity.'
 	},
 	{
 		period: 'Sept. 2019 — Apr. 2022',
 		degree: 'Licence LEA — English / Spanish, International Trade',
 		school: 'University of Toulouse 2 Jean-Jaurès, Toulouse',
 		description:
-			'A first step into higher education through foreign languages and international business — sharpening my English and Spanish and giving me an international outlook, before pivoting towards technology.'
+			'Higher education in foreign languages and international business, left in the third year to redirect towards Networks and Telecommunications — an international outlook that still shapes my work today.'
 	},
 	{
 		period: 'Jun. 2019',

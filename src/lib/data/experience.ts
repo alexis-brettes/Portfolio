@@ -6,7 +6,7 @@ export const experience: ExperienceEntry[] = [
 		location: 'Blagnac, France',
 		role: 'Cloud Engineering Apprentice',
 		company: 'Orange Wholesale',
-		summary: 'Apprenticeship carried out alongside the engineering degree at ENSEEIHT.',
+		summary: 'Apprenticeship on Orange\'s Kubernetes-as-a-Service solution, carried out alongside the engineering degree at ENSEEIHT.',
 		bullets: ['Implementing new technologies and AI into Kubernetes clusters.']
 	},
 	{
