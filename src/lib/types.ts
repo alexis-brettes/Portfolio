@@ -82,7 +82,7 @@ export interface MobilityTarget {
 	university: string;
 	program: string;
 	description: string;
-	status: string;
+	status?: string;
 	link?: { label: string; url: string };
 }
 
