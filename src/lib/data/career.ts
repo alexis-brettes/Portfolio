@@ -11,7 +11,7 @@ export const career: CareerStage[] = [
 		when: 'My present',
 		title: 'Specialization',
 		description:
-			'A Computer Science engineering degree at ENSEEIHT, combined with an apprenticeship as a Cloud Engineer at Orange — bringing new technologies and AI into Kubernetes clusters.'
+			'A Computer Science engineering degree at ENSEEIHT, combined with an apprenticeship as a Cloud Engineer at Orange — bringing new technologies and AI into a Kubernetes-as-a-Service platform.'
 	},
 	{
 		when: 'My future',
@@ -20,3 +20,17 @@ export const career: CareerStage[] = [
 			'Graduating in 2028 as a fully qualified engineer, deepening my expertise in cloud infrastructure, DevOps and cybersecurity.'
 	}
 ];
+
+export const applicationKit: {
+	title: string;
+	subtitle: string;
+	files: { label: string; url: string }[];
+} = {
+	title: 'Application kit',
+	subtitle: 'My CVs in French and English, and my profile online.',
+	files: [
+		{ label: 'CV (FR)', url: '/files/cv-fr.pdf' },
+		{ label: 'CV (EN)', url: '/files/cv-en.pdf' },
+		{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/your-username' }
+	]
+};

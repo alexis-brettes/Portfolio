@@ -86,6 +86,16 @@ export interface MobilityTarget {
 	link?: { label: string; url: string };
 }
 
+export interface Internship {
+	title: string;
+	host: string;
+	location: string;
+	period: string;
+	description: string;
+	skills: string[];
+	status: string;
+}
+
 export interface SiteMeta {
 	title: string;
 	description: string;
