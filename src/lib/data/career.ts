@@ -31,7 +31,6 @@ export const applicationKit: {
 	files: [
 		{ label: 'CV (FR)', url: '/files/cv-fr.pdf' },
 		{ label: 'CV (EN)', url: '/files/cv-en.pdf' },
-		{ label: 'Cover letter (Polito)', url: '/files/cover-letter-polito.pdf' },
 		{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/alexis-brettes-6835ab258' }
 	]
 };
