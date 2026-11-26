@@ -27,7 +27,8 @@ export const mobility: {
 			university: 'Politecnico di Torino',
 			program: 'Exchange semester · Cybersecurity',
 			description:
-				'My first choice for its cybersecurity curriculum: a natural continuation of my BUT specialization and of the security standards (ANSSI, ISO 27001, EBIOS RM) I already work with, deepening the security side of my cloud-focused engineering degree.'
+				'My first choice for its cybersecurity curriculum: a natural continuation of my BUT specialization and of the security standards (ANSSI, ISO 27001, EBIOS RM) I already work with, deepening the security side of my cloud-focused engineering degree.',
+				link: { label: 'Cover letter', url: '/files/cover-letter-polito.pdf' }
 		},
 		{
 			plan: 'Wish #2',

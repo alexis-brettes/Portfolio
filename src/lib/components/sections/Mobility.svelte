@@ -2,6 +2,7 @@
 	import Section from '#lib/components/layout/Section.svelte';
 	import Card from '#lib/components/ui/Card.svelte';
 	import Tag from '#lib/components/ui/Tag.svelte';
+	import { link } from '#lib/utils/links';
 	import { mobility } from '#lib/data/mobility';
 </script>
 
@@ -29,6 +30,16 @@
 				<h3 class="mt-2 font-semibold">{target.university}</h3>
 				<p class="text-sm text-muted">{target.program}</p>
 				<p class="mt-3 text-sm text-muted">{target.description}</p>
+				{#if target.link}
+					<a
+						href={link(target.link.url)}
+						target="_blank"
+						rel="noreferrer"
+						class="mt-4 inline-block font-mono text-sm text-accent hover:underline"
+					>
+						{target.link.label} →
+					</a>
+				{/if}
 			</Card>
 		{/each}
 	</div>
